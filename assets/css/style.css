@@ -1,0 +1,37 @@
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none; 
+    font-family: Arial, Helvetica, sans-serif;     
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.nav{
+    display: flex;
+    justify-content: end;
+
+}
+.nav a{
+    padding: 10px 20px;
+    color: red;
+}
+.nav a:hover{
+    background: black;
+    color: #fff;
+}
+.nav li{
+    margin: 0 10px;
+}
+.logo img{
+    width: 150px;
+}
+header{
+    box-shadow: 1px 1px 1px 1px;
+    color: cornsilk;
+}
+body{
+    margin: 0;
+}
